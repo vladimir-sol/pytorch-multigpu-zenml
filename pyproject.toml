@@ -10,7 +10,7 @@ packages = [{include = "*", from="src"}]
 
 [tool.poetry.dependencies]
 python = "~=3.12.6"
-zenml = {extras = ["server"], version = "^0.82.0"}
+zenml = {extras = ["server"], version = "0.82.0"}
 s3fs = {version = "2025.3.0", extras = ["boto3"]}
 torch = "2.7.0"
 datasets = "3.6.0"
@@ -19,7 +19,7 @@ transformers = {version = "4.51.3", extras = ["sentencepiece"]}
 accelerate = "1.6.0"
 evaluate = "0.4.3"
 scikit-learn = "1.6.1"
-pylint = "^3.3.7"
+pylint = "3.3.7"
 
 
 [build-system]

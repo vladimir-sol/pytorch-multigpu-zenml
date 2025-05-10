@@ -98,7 +98,7 @@ Evaluation is performed with the help of evaluate library.
 ### Review
 
 Training times on different hardware:
-- M2 Mac: 1h23
+- M2 Mac: 1h23m
 - g4dn.2xlarge: 34m
 - g4dn.12xlarge (4 GPUs): 21m
 
@@ -116,9 +116,10 @@ pain points.
 Disclaimer
 ----------
 
-`pipeline.py` and `settings.py` are predominantly human written, while
-referencing the HuggingFace LLM course; while `materializers.py` and `run.py`
-are predominantly AI generated. This README file is a mix of both workflows.
+`pipeline.py` and `settings.py` were predominantly human written while
+referencing the HuggingFace LLM course; `materializers.py` and `run.py` are
+predominantly AI generated. This README file is the result of a mix of both
+approaches.
 
 
 References
